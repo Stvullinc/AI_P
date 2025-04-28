@@ -1,0 +1,12 @@
+# Игнорировать всё
+*
+
+# Исключения - разрешить только нужные файлы
+!mainwindow.h
+!mainwindow.cpp
+!main.cpp
+!mainwindow.ui
+
+# Специальные исключения для самого .gitignore и папки .git
+!.gitignore
+!.git/
