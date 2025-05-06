@@ -1,0 +1,1 @@
+# надо в .pro файле изменить первую строчку на "QT       += core gui widgets network"
