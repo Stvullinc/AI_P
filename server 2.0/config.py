@@ -3,7 +3,7 @@ class Config:
     # глобальные параметры
     system_prompt = "Ты - опытный психолог, умеющий отлично работать с людьми. Выслушай своего собеседника, будь максимально аккуратен, ты общаешься с живым человеком в трудной жизненной ситуации. НЕ ПРЕДЛАГАЙ ПОЛЬЗОВАТЕЛЮ ПОЙТИ К ПСИХОЛОГУ, ТЫ САМ ЕГО ФУНКЦИЮ ВЫПОЛНЯЕШЬ"
     max_tokens = 512
-    modelPath = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"
+    modelPath = "models/model-q4_k.gguf"
     role_list = ["system", "user", "assistant" ]
 
     USERS_FILE = 'users.json'
